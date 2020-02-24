@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -eu
+
+mkdir -p /var/backups/gp/haproxy
+rsync -a --relative --delete /usr/local/etc/haproxy.cfg /var/backups/gp/haproxy/
+rsync -a --relative --delete /etc/letsencrypt/ /var/backups/gp/haproxy/
