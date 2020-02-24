@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+  nexus:
+    image: teecke/gp-haproxy:0.1.0
+    build: haproxy
+    ports:
+      - 10080:80
+      - 10443:443
+    volumes:
+      - ./data/usr/local/etc/haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg:ro
+      - ./data/etc/letsencrypt:/etc/letsencrypt
+      
+networks:
+    default:
+      external:
+        name: platform_services
