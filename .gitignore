@@ -1,2 +1,6 @@
-/data
+# Haproxy
+/services/haproxy/data/etc
+/services/haproxy/data/usr/local/etc/haproxy/certs
+!/services/haproxy/data/usr/local/etc/haproxy/haproxy.cfg
+!/services/haproxy/data/usr/local/etc/haproxy/errors/*
 /docker-compose.yml
