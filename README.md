@@ -8,7 +8,9 @@ Docker image and docker-compose sample configuration to bring up a HAProxy Servi
 
 The service is formed by one container:
 
-- **statics**: based on [haproxy:2.1.3](https://hub.docker.com/_/haproxy?tab=tags&page=1&name=2.1.3-alpine) alpine docker image.
+- **haproxy**: based on [haproxy:2.1.3](https://hub.docker.com/_/haproxy?tab=tags&page=1&name=2.1.3-alpine) alpine docker image.
+
+The image includes de `certbot` utility to manage Let's Encrypt certificates. In the near future it will include a set of scripts to get and renew the certificates.
 
 ## Operation
 
