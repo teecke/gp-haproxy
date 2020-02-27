@@ -20,7 +20,7 @@ The image includes de `certbot` utility to manage Let's Encrypt certificates. In
 
 3. Start the service with `docker-compose up -d`.
 
-4. Open the url <http://localhost:10080> or <http://localhost:10443> in a browser to access to the HAProxy service.
+4. Open the url <http://localhost> or <https://localhost> in a browser to access to the HAProxy service.
 
 5. Manage backups of your files:
 
