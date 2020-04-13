@@ -1,3 +1,7 @@
+# DEPRECATED
+
+Please visit https://github.com/tpbtools/gp-haproxy
+
 # Generic Platform - HAProxy Service
 
 ## Overview
