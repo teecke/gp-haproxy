@@ -6,7 +6,7 @@ Please visit https://github.com/tpbtools/gp-haproxy
 
 ## Overview
 
-Docker image and docker-compose sample configuration to bring up a HAProxy Service to the Teecke [Docker Generic Platform (GP)](https://github.com/teecke/docker-generic-platform).
+Docker image and docker-compose sample configuration to bring up a HAProxy Service to the Teecke [Docker Generic Platform (GP)](https://github.com/ayudadigital/docker-generic-platform).
 
 ## Configuration
 
@@ -34,7 +34,7 @@ The image includes de `certbot` utility to manage Let's Encrypt certificates. In
 
 6. Stop the service with `docker-compose stop`.
 
-You can use this docker piece with the [Docker Generic Platform](https://github.com/teecke/docker-generic-platform) project.
+You can use this docker piece with the [Docker Generic Platform](https://github.com/ayudadigital/docker-generic-platform) project.
 
 ## Known issues
 
